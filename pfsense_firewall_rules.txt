@@ -1,0 +1,5 @@
+1. **Default Deny Policy:** Block all incoming traffic by default from the WAN interface.
+2. **Internal Allow Rules:** Allow all outbound traffic from the LAN to any destination (Internet or guest).
+3. **Guest Network Restrictions:** Allow the guest network to access the Internet only, blocking access to internal resources.
+4. **Management Access Rules:** Allow SSH/WebGUI access only from trusted internal subnet to pfSense itself.
+5. **Logging:** Enable logging on critical rules for auditing.
